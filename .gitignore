@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.parcel-cache/
+.env
+.env.local
+npm-debug.log*
+*.log
+backend/node_modules/
+frontend/node_modules/
+backend/dist/
+frontend/dist/
+frontend/.parcel-cache/

@@ -1,0 +1,18 @@
+{
+  "name": "blog-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "source": "index.html",
+  "scripts": {
+    "dev": "parcel index.html --port 1234",
+    "build": "parcel build index.html",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}

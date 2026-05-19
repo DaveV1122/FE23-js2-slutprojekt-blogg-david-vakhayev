@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "anna",
+      "password": "password",
+      "avatar": "avatar1.png",
+      "description": "Anna skriver om studier, vardagsrutiner och små webbutvecklingsprojekt.",
+      "createdAt": "2026-05-19T12:00:00.000Z"
+    },
+    {
+      "id": "u2",
+      "username": "erik",
+      "password": "password",
+      "avatar": "avatar2.png",
+      "description": "Eriks blogg handlar om TypeScript, teknikidéer och lärdomar från kodprojekt.",
+      "createdAt": "2026-05-19T12:05:00.000Z"
+    },
+    {
+      "id": "u3",
+      "username": "david",
+      "password": "123456",
+      "avatar": "avatar3.png",
+      "description": "David samlar reflektioner om frontend, backend och arbetet med blogguppgiften.",
+      "createdAt": "2026-05-19T15:32:01.595Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p1",
+      "userId": "u1",
+      "title": "Välkommen till min blogg",
+      "content": "Här skriver jag om projekt, studier och saker jag lär mig längs vägen.",
+      "likes": [
+        "u2"
+      ],
+      "createdAt": "2026-05-19T12:10:00.000Z",
+      "updatedAt": "2026-05-19T12:10:00.000Z"
+    },
+    {
+      "id": "p2",
+      "userId": "u2",
+      "title": "TypeScript i Express",
+      "content": "TypeScript gör det lättare att se vilka fält som finns i användare och blogginlägg.",
+      "likes": [],
+      "createdAt": "2026-05-19T12:20:00.000Z",
+      "updatedAt": "2026-05-19T12:20:00.000Z"
+    },
+    {
+      "id": "p3",
+      "userId": "u3",
+      "title": "Från diskussion till blogg",
+      "content": "Projektet är ombyggt så att varje användare har en egen blogg med egna inlägg.",
+      "likes": [
+        "u1",
+        "u2"
+      ],
+      "createdAt": "2026-05-19T15:35:16.191Z",
+      "updatedAt": "2026-05-19T15:35:16.191Z"
+    },
+    {
+      "id": "post-1779208749903-398137cccb45c",
+      "userId": "u3",
+      "title": "test",
+      "content": "test",
+      "likes": [],
+      "createdAt": "2026-05-19T16:39:09.903Z",
+      "updatedAt": "2026-05-19T16:39:09.903Z"
+    }
+  ]
+}
